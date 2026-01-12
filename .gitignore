@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ChromaDB local storage
+.chroma_db/
+
+# Env / secrets — never commit kubeconfig overrides or API keys
+.env
+*.env.*
+kubeconfig
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
